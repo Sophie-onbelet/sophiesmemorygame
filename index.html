@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Sophie's memory game</title>
+  </head>
+  <body>
+    <div class="menubar">
+      <a href="homepage.html" id="logo">Sophie's Spellen</a>
+      <div class="menu">
+        <p>Actie</p>
+        <p>Avontuur</p>
+        <p>Behendigheid</p>
+        <p>Puzzel</p>
+        <p>Educatief</p>
+        <p>Meiden</p>
+        <p>Multiplayer</p>
+        <p>Race</p>
+        <p>Sport</p>
+        <p>Meer</p>
+      </div>
+      <div id="zoeken">
+        Zoek jouw spel:
+        <input class="zoeken" type="search" placeholder="Zoeken.." />
+      </div>
+    </div>
+    <div id="game">
+      <h1>Memory Game</h1>
+      <h3>Score: <span id="result"></span></h3>
+      <button class="button" onclick="location.reload()">Reset spel</button>
+
+      <div class="grid"></div>
+    </div>
+  </body>
+  <footer>
+    <p><span>&copy;</span> Sophie Onbelet</p>
+  </footer>
+</html>
